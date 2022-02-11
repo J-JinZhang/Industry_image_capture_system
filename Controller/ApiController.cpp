@@ -26,7 +26,7 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
   -------------------------------------------------------------------------------
-  Revised by Jin Zhang (ÕÅ½ø)
+  Revised by Jin Zhang (å¼ è¿›)
 
   Central South University
 
@@ -153,7 +153,7 @@ VmbErrorType ApiController::AcquireSingleImageSetting(const std::string & rStrCa
 						if (VmbErrorSuccess == res)
 						{
 							// Try to set BGR
-							res = pFormatFeature->SetValue(VmbPixelFormatRgb8);	//ÔõÃ´»áÉèÖÃÊ§°ÜÄØ£¿  VmbPixelFormatBgr8    VmbPixelFormatRgb8
+							res = pFormatFeature->SetValue(VmbPixelFormatRgb8);	//æ€Žä¹ˆä¼šè®¾ç½®å¤±è´¥å‘¢ï¼Ÿ  VmbPixelFormatBgr8    VmbPixelFormatRgb8
 							if (VmbErrorSuccess != res)
 							{
 								// Fall back to Mono
@@ -179,7 +179,7 @@ VmbErrorType ApiController::AcquireSingleImageSetting(const std::string & rStrCa
 	return res;
 }
 
-VmbErrorType ApiController::AcquireSingleImage( const std::string &rStrCameraID, FramePtr &rpFrame )	//¸Ãº¯Êý²¶×½ÊÓÆµÊ±£¬»á¶à´Î´ò¿ª¡¢¹Ø±ÕÉãÏñÍ·
+VmbErrorType ApiController::AcquireSingleImage( const std::string &rStrCameraID, FramePtr &rpFrame )	//è¯¥å‡½æ•°æ•æ‰è§†é¢‘æ—¶ï¼Œä¼šå¤šæ¬¡æ‰“å¼€ã€å…³é—­æ‘„åƒå¤´
 {
     // Open the desired camera by its ID
     VmbErrorType res = m_system.OpenCameraByID( rStrCameraID.c_str(), VmbAccessModeFull, m_pCamera );
@@ -228,7 +228,7 @@ VmbErrorType ApiController::AcquireSingleImage( const std::string &rStrCameraID,
                         if ( VmbErrorSuccess == res )
                         {
                             // Try to set BGR
-                            res = pFormatFeature->SetValue( VmbPixelFormatBgr8 );	//ÔõÃ´»áÉèÖÃÊ§°ÜÄØ£¿
+                            res = pFormatFeature->SetValue( VmbPixelFormatBgr8 );	//æ€Žä¹ˆä¼šè®¾ç½®å¤±è´¥å‘¢ï¼Ÿ
                             if ( VmbErrorSuccess != res )
                             {
                                 // Fall back to Mono
