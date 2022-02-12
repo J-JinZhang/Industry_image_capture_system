@@ -30,7 +30,7 @@
 
 #include <exception>
 
-#include "D:/��ѡ���ϵͳ/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
+#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
 
 namespace AVT {
 namespace VmbAPI {
