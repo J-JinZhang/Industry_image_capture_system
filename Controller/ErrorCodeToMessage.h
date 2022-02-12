@@ -30,7 +30,7 @@
     
 #include <string>
 
-#include "D:/��ѡ���ϵͳ/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
+#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
 
 #ifdef UNICODE
     typedef std::wstring    string_type;
