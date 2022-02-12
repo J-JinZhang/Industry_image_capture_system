@@ -33,11 +33,11 @@
 #include <string>
 #include <iostream>
 
-#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
+#include "D:/æµ®é€‰ç›‘æŽ§ç³»ç»Ÿ/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
 #include "CameraObserver.h"
 
-#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/Controller/StreamSystemInfo.h"
-#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/Controller/ErrorCodeToMessage.h"
+#include "D:/æµ®é€‰ç›‘æŽ§ç³»ç»Ÿ/FlotationVisualSurveillanceSys/Controller/StreamSystemInfo.h"
+#include "D:/æµ®é€‰ç›‘æŽ§ç³»ç»Ÿ/FlotationVisualSurveillanceSys/Controller/ErrorCodeToMessage.h"
 #ifndef UNICODE
 typedef std::string             string_type;
 typedef std::ostringstream      string_stream_type;
