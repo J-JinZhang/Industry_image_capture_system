@@ -29,8 +29,8 @@
 #ifndef AVT_VMBAPI_EXAMPLES_CAMERAOBSERVER
 #define AVT_VMBAPI_EXAMPLES_CAMERAOBSERVER
 
-#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
-#include "D:/¸¡Ñ¡¼à¿ØÏµÍ³/FlotationVisualSurveillanceSys/Controller/stdafx.h"
+#include "D:/æµ®é€‰ç›‘æŽ§ç³»ç»Ÿ/FlotationVisualSurveillanceSys/VimbaCPP/Include/VimbaCPP.h"
+#include "D:/æµ®é€‰ç›‘æŽ§ç³»ç»Ÿ/FlotationVisualSurveillanceSys/Controller/stdafx.h"
 
 namespace AVT {
 namespace VmbAPI {
